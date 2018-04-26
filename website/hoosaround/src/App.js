@@ -15,7 +15,7 @@ var config = {
 };
 firebase.initializeApp(config);
 var database = firebase.database();
-
+//Template html format modified from w3 schools!
 class App extends Component {
   constructor(props) {
     super(props);
